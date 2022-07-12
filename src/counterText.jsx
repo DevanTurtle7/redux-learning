@@ -1,5 +1,7 @@
+import { useSelector } from "react-redux";
+
 function CounterText(props) {
-    const count = 0;
+    const count = useSelector((state) => state.counter.value);
 
     return (
         <p>Counter is: {count}</p>
