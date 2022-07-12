@@ -1,6 +1,6 @@
 function counterButton(props) {
     const onClick = () => {
-        print("clicked!")
+        console.log("clicked!")
     }
 
     return (<button onCLick={onClick}>Click Me</button>)

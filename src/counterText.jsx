@@ -5,3 +5,5 @@ function counterText(props) {
         <p>Counter is: {count}</p>
     )
 }
+
+export default counterText;
