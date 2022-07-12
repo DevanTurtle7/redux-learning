@@ -1,14 +1,14 @@
 import './App.css';
-import counterButton from './counterButton';
-import counterText from './counterText';
+import CounterButton from './CounterButton';
+import CounterText from './CounterText';
 
 function App() {
-  return (
-    <div className="App">
-    <counterButton/>
-    <counterText/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <CounterButton />
+            <CounterText />
+        </div>
+    );
 }
 
 export default App;

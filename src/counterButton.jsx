@@ -1,9 +1,9 @@
-function counterButton(props) {
+function CounterButton(props) {
     const onClick = () => {
         console.log("clicked!")
     }
 
-    return (<button onCLick={onClick}>Click Me</button>)
+    return (<button onClick={onClick}>Click Me</button>)
 }
 
-export default counterButton
+export default CounterButton

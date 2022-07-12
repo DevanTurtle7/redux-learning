@@ -1,4 +1,4 @@
-function counterText(props) {
+function CounterText(props) {
     const count = 0;
 
     return (
@@ -6,4 +6,4 @@ function counterText(props) {
     )
 }
 
-export default counterText;
+export default CounterText;
