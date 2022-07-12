@@ -6,7 +6,7 @@ function DoubleButton(props) {
     const dispatch = useDispatch();
 
     const onClick = () => {
-        dispatch(incrementByAmount(count * 2))
+        dispatch(incrementByAmount(count))
     }
 
     return (<button onClick={onClick}>Double time</button>)
