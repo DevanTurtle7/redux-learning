@@ -11,3 +11,5 @@ function DoubleButton(props) {
 
     return (<button onClick={onClick}>Double time</button>)
 }
+
+export default DoubleButton;
